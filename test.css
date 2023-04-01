@@ -1,0 +1,74 @@
+body{
+    background-color: #576CBC;
+}
+
+
+.hello {
+    
+    
+}
+.child {
+    
+  
+}
+
+#button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    background-color: darkcyan;
+    display: block;
+    
+   
+    
+}
+:hover#button{
+    border-style: solid;
+        border-color: cornflowerblue;
+}
+
+#photo{
+    cursor: pointer;
+}
+
+input{
+    border: none;
+    width: 300px;
+    height: 30px;
+    border-style: none;
+    
+    padding: 2px;
+    padding-left: 8px;
+    border-radius: 4px;
+    margin-top: 100px;
+    outline-color: cornflowerblue;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.list{
+    background-color: aliceblue;
+    height: 20px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    
+
+  
+}
+
+.item{
+    margin-top: 5px;
+    width: 300px;
+    
+}
